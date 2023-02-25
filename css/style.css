@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo img {
+    float: left;
+    margin-top: 2em;
+    width: 40px;
+
+}
+
+.logo h1 {
+    top: 15px;
+    left: 10px;
+    color: rgb(21, 174, 185);
+    font-size: 35px;
+    padding: 22px 0 0 22px;
+    margin-left: 27px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.navlinks {
+    flex: 1;
+    text-align: right;
+}
+
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlinks ul li a:hover {
+    color: rgb(21, 174, 185);
+}
+
+
+.icon img {
+    padding-left: 95%;
+    margin-bottom: 1.3em;
+    width: 20px;
+    cursor: pointer;
+}
+
+.textbox {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textbox h1 {
+    font-size: 60px;
+}
+
+.textbox h4 {
+    padding-left: 52%;
+    margin: 10px 0 40px;
+    font-size: 100;
+    color: white;
+}
+
+
+.textbox p {
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 12px 34px;
+    font-size: 13px;
+    font-weight: bolder;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: rgb(21, 174, 185);
+    position: relative;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: rgb(21, 174, 185);
+}
+
+.btn2:hover {
+    border: 1px solid white;
+    background: rgba(21, 174, 185, 0.527);
+    transition: 1.2s;
+}
+
+.programs {
+    padding-top: 70px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.block {
+    float: left;
+    color: rgb(13, 111, 118);
+    width: 32%;
+    margin: 2em 0 2em 0.8em;
+    border: 1.6px dashed #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(21, 174, 185, 0.048);
+}
+
+.block h3 {
+    text-align: center;
+    color: rgb(13, 111, 118);
+}
+
+.details {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8em 12em;
+    background-color: rgb(21, 174, 185);
+}
+
+.details h1,
+h2,
+h3,
+h4 {
+    color: rgb(238, 254, 255);
+}
+
+.one p {
+    line-height: 1.6em;
+    font: 1.1em;
+    padding-bottom: 1em;
+}
+
+.two p {
+    line-height: 1.6em;
+    font: 1.1em;
+    padding-bottom: 1em;
+}
+
+.btn3 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background: rgb(18, 125, 133);
+    color: white;
+    border: none;
+    transition: 1.2s;
+}
+
+.about {
+    padding: 4em;
+}
+
+.about h2 {
+    text-align: center;
+    color: rgb(21, 154, 163);
+    padding-bottom: 1.5em;
+}
+
+.about p {
+    line-height: 1.6em;
+    margin-left: 15px;
+    font-weight: 500;
+    padding-bottom: 1.5em;
+
+}
+
+.contact {
+    padding: -2em;
+}
+
+.contact h2 {
+    text-align: center;
+    color: rgb(21, 154, 163);
+    padding-bottom: 0.2em;
+
+}
+
+.contact h4 {
+    text-align: center;
+    color: rgb(21, 154, 163);
+    padding-bottom: 1.5em;
+}
+
+.form {
+    margin: 20px 0;
+    border: 1px #a0adb5 solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form .formgroup {
+    padding-bottom: 12px;
+}
+
+.form label {
+    display: block;
+}
+
+.form input[type="text"],
+.form textarea {
+    padding: 8px;
+    width: 95%;
+}
+
+.faq {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(13, 111, 118);
+    border: 1px solid rgb(0, 43, 62);
+    border-radius: 20px;
+    padding: 12px 34px;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: rgba(21, 174, 185, 0.183);
+    position: relative;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(18, 125, 133);
+    color: white;
+    border: none;
+    transition: 1.2s;
+}
+
+.form label {
+    color: rgb(18, 125, 133);
+}
+
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
