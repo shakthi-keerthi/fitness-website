@@ -253,46 +253,9 @@ nav.fa{
     display: none;
 }
 
-@media(max-width: 700px)
-{
-    .textbox h1 {
-        padding-top: 1em;
-        font-size: 35px;
-    }
-
-    .navlinks ul li {
-        display: block;
-    }
-    .navlinks {
-        position: absolute;
-        background-color: rgb(22, 143, 151);
-        height:100vh;
-        width:200px;
-        top:0;
-        right:-200px;
-        text-align: left;
-        z-index: 2;
-        transition:1s;
-    }
-    
-    nav .fa{
-        display:block;
-        color:white;
-        margin: 10px;
-        font-size: 15px;
-        cursor:pointer;
-    }
-
-    .navlinks ul{
-        padding:30px;
-    }
-
-}
-
-
 .programs {
     padding-top: 70px;
-    width: 80%;
+    justify-content: space-between;
     margin: auto;
     text-align: center;
 }
@@ -306,11 +269,14 @@ h1 {
     float: left;
     color: rgb(13, 111, 118);
     width: 32%;
-    margin: 2em 0 2em 0.8em;
-    border: 1.6px dashed #ccc;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: rgba(21, 174, 185, 0.048);
+    line-height: 1.6em;
+    margin: 2em 0 2em 0.8em; 
+    text-align:left;
+    border-radius: 12px;
+    padding: 45px;
+    box-sizing:border-box;
+    background-color: rgba(21, 174, 185, 0.084);
+    transition: 0.5s;
 }
 
 .block h3 {
@@ -318,13 +284,24 @@ h1 {
     color: rgb(13, 111, 118);
 }
 
+.block:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
 .details {
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 11rem;
+    background-color: rgb(21, 174, 185);
+
+    /*display: flex;
+    flex-direction: row;
     justify-content: space-around;
     padding: 8em 12em;
-    background-color: rgb(21, 174, 185);
+    background-color: rgb(21, 174, 185); */
 }
 
 .details h1,
@@ -340,6 +317,12 @@ h4 {
     padding-bottom: 1em;
 }
 
+.one{
+        border-right:1px solid white;
+        padding-right: 4rem;
+}
+
+
 .two p {
     line-height: 1.6em;
     font: 1.1em;
@@ -347,10 +330,21 @@ h4 {
 }
 
 .btn3 {
-    display: inline-block;
+
+   /* background: white;
+    height: 100%;
+    width:0;
+    border-radius: 25px;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.5s;*/
+    
+ 
     text-decoration: none;
     color: white;
-    border: 1px solid white;
+    border: 1.2px solid white;
     border-radius: 20px;
     padding: 12px 34px;
     font-size: 13px;
@@ -360,9 +354,10 @@ h4 {
 }
 
 .btn3:hover {
+
     background: rgb(18, 125, 133);
-    color: white;
-    border: none;
+    color: white; 
+    border: 1.2px solid rgb(18, 125, 133);
     transition: 1.2s;
 }
 
